@@ -16,7 +16,7 @@ window.sr = ScrollReveal();
 		delay:1500,
 		origin: 'top', //origen
 		distance: '-100px', //distancia
-		reset:1000
+		
 
 	});
 sr.reveal('.nosCasamos', {
@@ -24,7 +24,7 @@ sr.reveal('.nosCasamos', {
 		delay:1500,
 		origin: 'top', //origen
 		distance: '-100px', //distancia
-		reset:1000
+		
 
 	});
 
