@@ -50,9 +50,9 @@ position: center;
 
 .nombres{
  font-family: 'Cormorant', serif;
-  margin-top:250px;
+  margin-top:10px;
   color:white;
-  font-size: 25px;
+  font-size: 22px;
 
 }
 
@@ -64,10 +64,10 @@ position: center;
 
 }
 @media (max-width:376px){
-  
+
 .nombres{
  font-family: 'Cormorant', serif;
-  margin-top:100px;
+  margin-top:10px;
   color:white;
   font-size: 17px;
 
@@ -78,6 +78,12 @@ position: center;
   color:white;
   font-size: 30px;
 
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 }
 #cuenta {
@@ -122,7 +128,7 @@ position: center;
 }
 .nosCasamos{
 font-family: 'Galada', cursive;
-  margin-top:20px;
+  margin-top:40px;
   color:#621132;
   font-size: 30px;
 
@@ -130,27 +136,39 @@ font-family: 'Galada', cursive;
 .textoNosCasamos{
   font-family: 'Katibeh', cursive;
   font-weight: 400;
-  margin-top:10px;
+  margin-top:0px;
   color:black;
   font-size: 23px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 
 }
 .textoSeccion3{
   font-family: 'Atma', cursive;
   font-weight: 400;
-  margin-top:90px;
-  color:white;
+  margin-top:120px;
+  color:black;
   font-size: 18px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 
+}
+@media (max-width:376px){
+
+.textoSeccion3{
+  font-family: 'Atma', cursive;
+  font-weight: 400;
+  margin-top:30px;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 20px;
+
+}
 }
 .dondeycuando{
   background-color: white;
 }
 .dondeyCuando{
 font-family: 'Galada', cursive;
-  margin-top:30px;
+  margin-top:10px;
   color:#621132;
   font-size: 30px;
 
