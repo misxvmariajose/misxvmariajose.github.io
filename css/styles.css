@@ -50,7 +50,7 @@ position: center;
 
 .nombres{
  font-family: 'Cormorant', serif;
-  margin-top:10px;
+  margin-top:250px;
   color:white;
   font-size: 20px;
 
@@ -67,7 +67,7 @@ position: center;
 
 .nombres{
  font-family: 'Cormorant', serif;
-  margin-top:10px;
+  margin-top:130px;
   color:white;
   font-size: 17px;
 
@@ -129,12 +129,12 @@ position: center;
 .nosCasamos{
 font-family: 'Galada', cursive;
   margin-top:40px;
-  color:#621132;
+  color:#AA006F;
   font-size: 30px;
 
 }
 .textoNosCasamos{
-  font-family: 'Katibeh', cursive;
+  font-family: 'La Belle Aurore', cursive;
   font-weight: 400;
   margin-top:0px;
   color:black;
@@ -163,19 +163,22 @@ font-family: 'Galada', cursive;
 
 }
 }
+.dondeycuandotitulo{
+  font-family: 'Maitree', serif;
+}
 .dondeycuando{
   background-color: white;
 }
 .dondeyCuando{
-font-family: 'Galada', cursive;
+font-family: 'Dancing Script', cursive;
   margin-top:10px;
-  color:#621132;
-  font-size: 30px;
+  color:#AA006F;
+  font-size: 40px;
 
 }
 .ceremoniaReligiosa{
   border-radius: 10px;
-  background-color: #F5EFEE;
+  background-color: #FFEBF8;
   text-align: center;
 }
 .imagen{
@@ -183,8 +186,10 @@ font-family: 'Galada', cursive;
     margin-bottom: 5px;
     align-content: center;
 }
+
 .textodondeycuando{
   font-size: 15px;
+  font-family: 'Maitree', serif;
 }
 .carousel2 {
   background: white;
@@ -260,24 +265,25 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 }
 
 .Tituloasistencia{
-  font-family: 'Galada', cursive;
-  font-size: 30px;
-  color:#621132;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color:#AA006F;
 
 }
 
 .textoasistencia{
-  font-family: 'Meera Inimai', sans-serif;
+  font-family: 'Maitree', serif;
   font-weight: 400;
   color:black;
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 50px;
 
 }
 .Tituloasistenciaespero{
-  font-family: 'Galada', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
+  color:#AA006F;
 
 }
 .titulo{
@@ -381,7 +387,7 @@ margin-top: 0px;
 .loader_bg{
     position: fixed;
     z-index: 999999;
-    background: #621132;
+    background: #FFE8F7;
     width: 100%;
     height: 100%;
 }
@@ -421,7 +427,7 @@ margin-top: 0px;
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#909090;
+    background-color:#AA006F;
     border-color: white;
     text-indent:-9999px;
     display:none;
