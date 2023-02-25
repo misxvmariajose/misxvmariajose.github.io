@@ -110,7 +110,7 @@ font-family: 'Arizonia', cursive;
   margin-top:80px;
   margin-bottom: 40px;
   color:white;
-  font-size: 60px;
+  font-size: 45px;
 
 }
 .portada{
@@ -126,7 +126,7 @@ z-index: 99px;
 font-family: 'Cinzel Decorative', cursive;
   margin-top:65px;
   color:#621132;
-  font-size: 25px;
+  font-size: 23px;
 
 }
 #cuenta {
@@ -263,8 +263,13 @@ font-family: 'Abril Fatface', cursive;
 font-family: 'Abril Fatface', cursive;
   margin-top:10px;
   color:white;
-  font-size: 35px;
+  font-size: 30px;
 
+}
+.dia{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 100px;
+  margin-bottom: -10px;
 }
 }
 
@@ -278,6 +283,7 @@ font-family: 'EB Garamond', serif;
   font-size: 38px;
   border-bottom: 3px solid white;
 }
+
 
 .invitacionpara{
 font-family: 'Dancing Script', cursive;
@@ -293,9 +299,36 @@ font-family: 'Open Sans', sans-serif;
   font-size: 40px;
 }
 
+
+
 .respetuosamente{
   font-size: 20px;
 font-family: 'Open Sans', sans-serif;
+}
+@media (max-width:376px){
+
+.apellidos{
+font-family: 'EB Garamond', serif;
+  font-size: 24px;
+  border-bottom: 3px solid white;
+}
+.invitacionpara{
+font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+
+}
+.numMesa{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'EB Garamond', serif;
+  font-size: 30px;
+}
+.respetuosamente{
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
 }
 .formulario{
   margin-left: -10px;
@@ -477,11 +510,20 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 
 .btn:hover{
   text-decoration:none;
-  color: black;
-  border-color: #121D25;
+  color: white;
+  border-color: white;
+  background-color:#184547; 
  
 }
+@media (max-width:376px){
 
+.btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 12px;
+}
+}
 .btnWhats{
   text-decoration:none;
   color:#25D366;
