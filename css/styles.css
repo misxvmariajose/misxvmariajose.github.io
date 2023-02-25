@@ -1,8 +1,10 @@
  body{
-  color: black;
+  color: white;
+background-color: #184547;
   width: 100%;
-
+ margin: 0;
   overflow-x: hidden;
+
 }
 
 p{
@@ -41,65 +43,108 @@ div.container-fluid{
 
 .portada{
 width: 100%;
-height: 100%;
+height: 680px;
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
+z-index: 99px;
 
 }
+.playpause {
+  padding: 15px;
+  border-radius: 50%;
+  background: #transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
 
+.playpause:hover {
+  background: #464646;
+}
+
+.playpause .button {
+  width: 25px;
+  height: 25px;
+  background: #f0f0f0;
+  transition: inherit;
+  clip-path: polygon(0 0, 50% 25%, 50% 75%, 50% 75%, 50% 25%, 100% 50%, 100% 50%, 0 100%);
+}
+
+.playpause.playing .button {
+   clip-path: polygon(0 0, 40% 0, 40% 100%, 60% 100%, 60% 0, 100% 0, 100% 100%, 0 100%);
+}
 .nombres{
- font-family: 'Cormorant', serif;
-  margin-top:250px;
+font-family: 'Arizonia', cursive;
+  margin-top:170px;
+  margin-bottom: 80px;
   color:white;
-  font-size: 20px;
+  font-size: 75px;
+
+}
+.nuestraBoda{
+ font-family: 'Cinzel Decorative', cursive;
+  margin-top:65px;
+  color:#621132;
+  font-size: 40px;
 
 }
 
-.nuestraBoda{
- font-family: 'Pinyon Script', cursive;
-  margin-top:10px;
-  color:#621132;
-  font-size: 50px;
 
+.faltan{
+ font-family: 'Cormorant Garamond', serif;
+  margin-top:120px;
+  color:#621132;
+  font-size: 25px;
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 @media (max-width:376px){
 
 .nombres{
- font-family: 'Cormorant', serif;
-  margin-top:130px;
+ font-family: 'Arizonia', cursive;
+  margin-top:80px;
+  margin-bottom: 40px;
   color:white;
-  font-size: 17px;
+  font-size: 60px;
+
+}
+.portada{
+width: 100%;
+height: 470px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
 
 }
 .nuestraBoda{
- font-family: 'Pinyon Script', cursive;
-  margin-top:10px;
-  color:white;
-  font-size: 30px;
+font-family: 'Cinzel Decorative', cursive;
+  margin-top:65px;
+  color:#621132;
+  font-size: 25px;
 
 }
 #cuenta {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 }
-#cuenta {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 50px;
-}
+
 
 .simply-section {
-  background: #fff;
-  width: 120px;
-  height: 80px;
-  margin: 0 50px;
-  margin:5px;
-  border-radius: 10px;
+  background: #184547;
+  width: 170px;
+  height: 50px;
+  margin: 50 50px;
+  margin:10px;
+  border-radius: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,16 +152,17 @@ position: center;
 
 .simply-amount {
   display: block;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 1000;
-  font-family: 'Waterfall', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .simply-word {
-  color:black;
+  color:white;
   font-weight: 400;
-  font-size: 18px;
-  font-family: 'Rouge Script', cursive;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 50px;
 }
 .fondoMeGradue{
 width: 100%;
@@ -127,19 +173,27 @@ position: center;
 
 }
 .nosCasamos{
-font-family: 'Galada', cursive;
-  margin-top:40px;
-  color:#AA006F;
+font-family: 'Dancing Script', cursive;
+  margin-top:;
+  color:white;
   font-size: 30px;
 
 }
 .textoNosCasamos{
-  font-family: 'La Belle Aurore', cursive;
+  font-family: 'Dancing Script', cursive;
   font-weight: 400;
   margin-top:0px;
-  color:black;
+  color:white;
   font-size: 23px;
   margin-bottom: 10px;
+
+}
+.estasinvitado{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  color:white;
+  font-size: 35px;
+
 
 }
 .textoSeccion3{
@@ -163,24 +217,129 @@ font-family: 'Galada', cursive;
 
 }
 }
+.dia{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 130px;
+  margin-bottom: -10px;
+}
+.mes{
+  border-top: 2px solid #184547;
+  border-bottom: 2px solid #184547;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+
+}
+.año{
+  border-top: 2px solid #184547;
+  border-bottom: 2px solid #184547;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+}
 .dondeycuandotitulo{
-  font-family: 'Maitree', serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 35px;
+}
+.hora{
+  font-family: 'Noto Serif Khojki', serif;
+  font-size: 35px;
+}
+.lugar{
+  font-family: 'Noto Serif Khojki', serif;
+  font-size: 20px;
 }
 .dondeycuando{
   background-color: white;
 }
 .dondeyCuando{
-font-family: 'Dancing Script', cursive;
+font-family: 'Abril Fatface', cursive;
   margin-top:10px;
-  color:#AA006F;
-  font-size: 40px;
+  color:white;
+  font-size: 50px;
 
 }
+@media (max-width:376px){
+
+.dondeyCuando{
+font-family: 'Abril Fatface', cursive;
+  margin-top:10px;
+  color:white;
+  font-size: 35px;
+
+}
+}
+
+.familiaboleto{
+font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+
+}
+.apellidos{
+font-family: 'EB Garamond', serif;
+  font-size: 38px;
+  border-bottom: 3px solid white;
+}
+
+.invitacionpara{
+font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+
+}
+.numMesa{
+  font-size: 25px;
+font-family: 'Open Sans', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+}
+
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+.formulario{
+  margin-left: -10px;
+  font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
 .ceremoniaReligiosa{
-  border-radius: 10px;
-  background-color: #FFEBF8;
+   box-shadow: 0 0 20px white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-color: white;
+
+  
+  background-color: 184547;
   text-align: center;
 }
+
+.vestimenta{
+
+  border-top: 3px solid black;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  border-color: white;
+
+  color:white;
+  background-color: black;
+  text-align: center;
+}
+
+.boletos{
+
+  box-shadow: 0 0 20px white;
+  
+  border-radius: 15px 15px 15px 15px;
+  border-color: white;
+
+  color:white;
+  
+  text-align: center;
+}
+
 .imagen{
     border-radius: 20px;
     margin-bottom: 5px;
@@ -189,7 +348,7 @@ font-family: 'Dancing Script', cursive;
 
 .textodondeycuando{
   font-size: 15px;
-  font-family: 'Maitree', serif;
+font-family: 'Open Sans', sans-serif;
 }
 .carousel2 {
   background: white;
@@ -306,7 +465,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   align-items: center;
   vertical-align: middle;
   text-align: center;
-  text-
+  z-index: 99;
 }
 
 .btn{
@@ -317,6 +476,22 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 
 
 .btn:hover{
+  text-decoration:none;
+  color: black;
+  border-color: #121D25;
+ 
+}
+
+.btnWhats{
+  text-decoration:none;
+  color:#25D366;
+  height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.btnWhats:hover{
   text-decoration:none;
   color: black;
   border-color: #121D25;
@@ -427,13 +602,14 @@ margin-top: 0px;
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#AA006F;
+    background-color:gray;
     border-color: white;
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:60px;
     -moz-border-radius:60px;
     border-radius:60px
+    z-index:9999px;
 }
 #scroll span {
     position:absolute;
@@ -447,10 +623,20 @@ margin-top: 0px;
     border-bottom-color:#ffffff;
 }
 #scroll:hover {
-    background-color:#621132;
+    background-color:gray;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
+.collage{
+  margin-top: -40px;
+  margin-bottom: -40px;
+  border-color: black;
+  color:black;
+  background-color: white;
+  text-align: center;
+  z-index: 99;
+}
+
 .pie{
   background: #621132;
   border-top: solid 1px white;
@@ -482,4 +668,134 @@ margin-bottom:;}
 #social-test a:hover{color:#fff;border:1px solid #ccc}
 .social:hover>a{opacity:.5}
 .social:hover>a:hover{opacity:1}
+
+.form-register {
+  width: 100%;
+  background: black;
+  padding: 30px;
+  margin: auto;
+  margin-top:;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  border-top: 1px solid black;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-color: white;
+}
+
+.controls {
+  width: 100%;
+  background: #184547;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  align-self: center;
+  background: gray;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  background-color: #184547;
+  color: white;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: transparent;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: white;
+  margin-left: 10px;
+  padding: ;
+  border: 1px solid white;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #184547;
+  top: 100%;
+  height: 70px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+  #particles-js{
+            background: transparent;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index: -1;
+        }
 

@@ -14,6 +14,9 @@
    
 <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Anek+Kannada:wght@500&family=Cormorant+Garamond:wght@300;500&family=Crete+Round&family=Dancing+Script:wght@700&family=La+Belle+Aurore&family=Maitree:wght@500&family=Nunito+Sans&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Archivo&family=Fredoka+One&family=Headland+One&family=Paytone+One&family=Questrial&family=Qwitcher+Grypen:wght@700&family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arizonia&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@500&family=Dancing+Script&family=EB+Garamond&family=Noto+Sans+Tagbanwa&family=Noto+Serif+Khojki:wght@700&family=Open+Sans:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+
     <script type='text/javascript'>
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
@@ -49,11 +52,16 @@ $(document).ready(function(){
 
 </script>
 <script>
+    function PlayAudio(){
+        document.getElementById("musica1").play();
+    }
+</script>
+<script>
         setTimeout(function(){
             $('.loader_bg').fadeToggle();
         }, 2000);
     </script>
-	<title>Ingrid Regina - ¡Mis XV Años!</title>
+	<title>María José - ¡Mis XV Años!</title>
 	<link rel="shortcut icon" href="img/xv.png"/>
 </head>
 <!--<body>
@@ -61,78 +69,319 @@ $(document).ready(function(){
     <h1 class='desactivado col-11 text-center' ><li class='mr-1 far fa-times-circle'></li>DESACTIVADO TEMPORALMENTE<li class='ml-1 far fa-tired'></li>
         </h1> 
 </div>-->
-<body translate="no" >
-<div class="loader_bg">
+<body translate="no">
+<!--<div class="loader_bg">
     <div class="loader"><img class="col-12 col-lg-9" src="img/xv.png"></div>
      <div class="progress">
         <div class="loading-bar indeterminate" ng-style="{'background-color': view.code.color1 || view.color1}"></div>
     </div>
-</div>
+</div>-->
 
 
-<section class="portada col-12" style="background-size: 100% ; background-repeat: no-repeat; background-image: url(img/portada1.png) ">
+<div class="portada col-12" style="background-size: 100% ; background-image: url(img/portada1.png)"  >
+    
                     <div class="row justify-content-center">
-                         <h3 class='nombres col-12 col-lg-12 text-center ml-3 text-white' id="barraFria">INGRID REGINA GONZALEZ ORTIZ </h3>  
-                         <h4 class='nuestraBoda col-12 col-lg-12 text-center ml-2 text-white' id="barraFria">¡Mis XV Años! </h4>    
-                           <div class="col-11 ml-2 text-center" id="cuenta"></div>    
+
+                        <h4 class='nuestraBoda col-12 col-lg-12 text-center ml-3 text-white' id="barraFria">MIS XV AÑOS </h4>
+                        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 ml-3 mt-0 mb-4" src="img/ornamenta.png" > 
+    </div>   
+                         <h5 class='nombres col-lg-12 text-center' >María José</h5>  
+
+<div class="playpause mb-5" onclick="PlayAudio()">
+    <div class="button"></div>
+
+</div>  
+ <audio id="musica1" volume="80" loop> 
+      <source src="audio/musica.mp3" type="audio/mpeg">
+  </audio>
+
+
             </div>
 
-        </section>
+        </div>
 
-
-<section class="invitado col-12 mb-0" style="background-size: 100% ; background-repeat: repeat; background-image: url(img/fondo.png) "> 
+<section class="cuando col-12 mb-0" style="background-color: black; color:white; position: relative; z-index: -2" > 
+<div id="particles-js2"></div>
 <br><br><h5 class='textoNosCasamos col-12 col-lg-12 mt-0 mb-5 text-center'>Hay momentos en la vida que imaginamos, soñamos y esperamos, uno de esos momentos a llegado...</h5>    
+<h3 class='estasinvitado col-12 col-lg-12 mt-0 mb-2 text-center'>¡Estás Invitado!</h3> 
+        <h5 class='dondeyCuando col-12 col-lg-12 mt-4 mb-0 text-center' >¿Cuando?</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4 ornamenta" src="img/ornamenta.png" > 
+    </div>
+        <div class="container col-12 mt-2 mb-0">  
+                <div class="justify-content-center">
+                        <h5 class='dia col-lg-12 mt-2 text-center' >16</h5> 
+                </div>
+                <div class="row justify-content-center">
+                        <h5 class='mes col-4 col-lg-5  ml-1 text-center' >DIC</h5> 
+                        <h5 class='año col-4 col-lg-5 ml-5 text-center' >2023</h5> 
+                </div>
 
-        <h5 class='dondeyCuando col-12 col-lg-12 mt-5 mb-4 text-center' >Dónde & Cuándo</h5>  
-         <div class="container col-11 mt-2 ceremoniaReligiosa mb-4">  
-        <div class="row justify-content-center"> 
-        <h5 class='dondeycuandotitulo col-12 col-lg-12 mt-3 text-center' >CEREMONIA</h5>      
-        <img class="imagen col-9 col-lg-3 mt-2" src="img/parroquia.jpg" >  
-        <h6 class='dondeycuandotitulo col-12 col-lg-12 mt-3 text-center' ><b>PARROQUIA SAN MARCOS</b></h6> 
-        <p class='textodondeycuando col-12 col-lg-12 mt-3 text-left' ><b>Cúando:</b> 27 de Diciembre de 2022 - 16:00 hrs.</p>
-        <p class='textodondeycuando col-12 col-lg-12 mt-1 mb-4 text-left' ><b>Dirección:</b> Solidaridad, San Marcos, 34225 Durango, Dgo.</p>  
-   
-    <a href="https://maps.app.goo.gl/7zWUkAcvokA5dpjP9" class="btn btn-secondary col-10 mb-5"><i class="fas fa-map-marker-alt "></i> Ver Ubicación</a>  
-
-    </div></div>
-
-    <div class="container col-11 mt-2 ceremoniaReligiosa mb-5">  
-        <div class="row justify-content-center"> 
-        <h5 class='dondeycuandotitulo col-12 col-lg-12 mt-3 text-center' >RECEPCIÓN</h5>      
-        <img class="imagen col-9 col-lg-3 mt-2" src="img/salon.jpeg" >  
-        <h6 class='dondeycuandotitulo col-12 col-lg-12 mt-3 text-center' ><b>SALÓN LAS CAROLINAS 2</b></h6> 
-        <p class='textodondeycuando col-12 col-lg-12 mt-3 text-left' ><b>Cúando:</b> 27 de Diciembre de 2022 - 18:00 hrs.</p>
-        <p class='textodondeycuando col-12 col-lg-12 mt-1 mb-4 text-left' ><b>Dirección:</b> C. Flor de Saúco 433, Las Bugambilias, Villas del Sol, 34000 Durango, Dgo.</p>  
-   
-    <a href="https://maps.app.goo.gl/59s7n6xGbg3MN8AJA" class="btn btn-secondary col-10 mb-5"><i class="fas fa-map-marker-alt "></i> Ver Ubicación</a>  
-
-    </div></div>
-
-     <h5 class='Tituloasistencia col-12 col-lg-12 text-center text-black mt-5 mb-4' >Confirmar asistencia</h5> 
-        <p class='textoasistencia col-12 col-lg-12 mb-4 text-center text-black' >Confirma tu asistencia envíandonos un mensaje a nuestro chat de WhatsApp.<p> 
-         <div class=" logos1 row justify-content-center align-items-center" > 
-            <a href="https://wa.me//526181747204?text=Confirmo%20mi%20asistencia." class="btn btn-secondary col-10 mb-5"><i class="fa fa-whatsapp align-items-center"></i> Confirmar con la Quinceañera</a> 
-    </div>    
-
-    <h3 class='Tituloasistenciaespero col-12 col-lg-12 mt-4 mb-5 text-center ' >¡Te espero!</h4> 
-
-<div class="row justify-content-center">
-                  
-                <img class="col-6 col-lg-3 mt-3 mb-3 row justify-content-center" src="img/logotipoConCodigo.png">  
-        </div>  
-
+        </div>
+        <p class='textodondeycuando col-12 col-lg-12 mt-3 mb- text-center' >Queremos que seas parte de este momento tan importante.</p> 
+        <div class="col-12 text-center mb-0" id="cuenta"></div> 
+        <br><br>
+        
 </section>
 
-      
+<div class="invitado col-12 mb-0 mt-0"> 
+    
+        <br><br>
+        <h5 class='dondeyCuando col-12 col-lg-12 mt-0 mb-0 text-center' >¿Dónde?</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="img/ornamenta.png" > 
+    </div>
 
+         <div class="container col-12 mt-2 ceremoniaReligiosa mb-4" style="background-size: cover ; background-image: url(img/fondo1.png)">  
+        <div class="justify-content-center"> 
+        <h5 class='dondeycuandotitulo col-lg-12 mt-3 text-center' >CEREMONIA</h5>    
+        <p style="font-size: 100px;"><i class="fas fa-church"></i></p>  
+        <h6 class='lugar col-12 col-lg-12 mt-2 text-center' ><b>Santuario de Guadalupe</b></h6> 
+        <p class='hora col-12 col-lg-12 mt-2 text-center' >18:00 hrs.</p>
+        <p class='textodondeycuando col-12 col-lg-12 mt-2 mb-4 text-center' >Prolongacion S/N, Zona Centro, 34000 Durango</p>  
+   
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.7338523250837!2d-104.68097818578308!3d24.040448783552495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bc83685a5e403%3A0xd63146324039d752!2sSantuario%20de%20Guadalupe!5e0!3m2!1ses!2smx!4v1676954207824!5m2!1ses!2smx" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mb-4 mapas"></iframe>
+
+    <a href="https://maps.app.goo.gl/7zWUkAcvokA5dpjP9" class="btn btn-dark col-8 mb-5"><i class="fas fa-location-arrow"></i> COMO LLEGAR</a>  
+
+    </div></div>
+
+    <div class="container col-12 mt-2 ceremoniaReligiosa mb-5" style="background-size: cover ; background-image: url(img/fondo3.png)">  
+        <div class="justify-content-center"> 
+        <h5 class='dondeycuandotitulo col-12 col-lg-12 mt-3 text-center' >RECEPCIÓN</h5>      
+        <p style="font-size: 100px;"><i class=" fas fa-glass-cheers"></i></p>   
+        <h6 class='lugar col-12 col-lg-12 mt-2 text-center' ><b>Salón de eventos #212</b></h6> 
+        <p class='hora col-12 col-lg-12 mt-2 text-center' >21:00 hrs.</p>
+        <p class='textodondeycuando col-12 col-lg-12 mt-2 mb-4 text-center' >C. México 212, Guadalupe, 34220 Durango, Dgo.</p>  
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.624467652215!2d-104.62549258578298!3d24.044304383403603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7fc17e819af%3A0x6d4be96fd12d81f!2sSal%C3%B3n%20de%20eventos%20%23212!5e0!3m2!1ses!2smx!4v1676954091600!5m2!1ses!2smx" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mb-4 mapas"></iframe>
+
+    <a href="https://maps.app.goo.gl/59s7n6xGbg3MN8AJA" class="btn btn-dark col-8 mb-5"><i class="fas fa-location-arrow "></i> COMO LLEGAR</a>  
+
+
+
+    </div></div></div>
+
+
+<div class="invitado col-12" style="background-size: 100%; background-image: url(img/fondo2.png)"><br>
+        <h5 class='dondeyCuando col-12 col-lg-12 text-center' >Código de Vestimenta</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="img/ornamenta.png" > 
+    </div>
+    <h5 class='nosCasamos col-12 col-lg-12 mb-4 mt-4 text-center' >Formal</h5>
+        <div class="container col-12 mt-2 vestimenta mb-5">  
+        <div class="row justify-content-center"> 
+           
+        <img class="col-8 col-lg-3 mt-4 justify-content-center" src="img/vestido.png" > 
+        <h5 class='col-12 col-lg-12 mt-3 text-center' ><b>MUJERES</b></h5> 
+        <h5 class='col-12 col-lg-12  mb-4 text-center' >Vestido Largo, corto, conjunto formal.</h5>    
+        </div></div>
+        <div class="container col-12 mt-2 vestimenta mb-5">  
+        <div class="row justify-content-center">     
+        <img class="imagen col-8 col-lg-3 mt-4" src="img/traje.png" > 
+        <h5 class='col-12 col-lg-12 mt-3 text-center' ><b>HOMBRES</b></h5>  
+        <h5 class='col-12 col-lg-12 mb-4 text-center' >Traje, vestimenta casual.</h5>   
+
+    </div></div>
+    <br>
+</div></div>
+<h5 class='dondeyCuando col-12 col-lg-12 mb-0 mt-5 text-center' >La Quinceañera</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="img/ornamenta.png" > 
+    </div>
+ <!-- CARRUSEL-->
+ <img class="col-12 mt-4 imagen1" src="img/1.jpeg" alt="" height="">
+ <div class="container col-10 collage">  
+        <div class="imagen2 row justify-content-center"> 
+            <img class=" mt-2 mb-2 ml-3 " src="img/2.jpeg" alt="">
+        </div>
+</div>
+ <img class="imagen3 col-12 mt-2 mb-5" src="img/3.jpeg" alt="" height="">
+   <div class="invitado col-12" style="background-size: cover ; background-color:black;"><br>   
+
+      <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >Confirmar asistencia</h5> 
+      <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="img/ornamenta.png" > 
+    </div>
+        
+  
+    <div class="container col-10 mt-2 boletos mt-2 mb-4"  style="background-size: cover ; background-image: url(img/portada1.png)">  
+        <div class="justify-content-center mb-2"><br>
+            <h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
+            <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' >Huizar Graciano</h5>
+            <h5 class='invitacionpara col-12 col-lg-12 mt-3 text-center' >Invitación para:</h5>
+            <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >4</h5>
+            <h5 class='numMesa col-12 col-lg-12 mt-4 text-center' >Número de mesa:</h5> 
+              <h5 class='numeroPerMes col-12 col-lg-12 mt-2 text-center' >10</h5>
+            <p style="font-size: 100px;"><i class=" fas fa-ticket-alt "></i></p>
+                <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="img/ornamenta.png" >
+    </div>
+        </div>
+    </div>
+    <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" >Respetuosamente te pedimos no invitar a personas que no son parte de los boletos asignados ¡Gracias!</h2><br><br>
+
+</div>
+<div class="invitado col-12" >
+<h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-5 mb-4' >RSVP</h5> 
+<h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del <b>01 DE NOVIEMBRE DE 2023.</b></h2>
+        <form class="form-register mt-4" action="https://formsubmit.co/kala980108@hotmail.com" method="POST">
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>Nombre completo del invitado</b></h2>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="">
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>Teléfono</b></h2>
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="">
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>Email</b></h2>
+    <input class="controls" type="email" name="correo" id="correo" placeholder="">
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>¿Podrás asistir? Selecciona una opción</b></h2>
+   <div class="custom-select col-12 mb-3">
+  <select>
+    <option value="0">Sí voy a ir.</option>
+    <option value="1">Sí voy a ir.</option>
+    <option value="2">No voy a ir.</option>
+  </select>
+</div>
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
+    <input class="controls" type="text" name="boletos" id="correo" placeholder="">
+    <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>Mensaje para la quinceañera</b></h2>
+    <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="mensaje" id="nombres" placeholder=""></textarea>
+    <div class="row justify-content-center">
+    <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center"><i class="fas fa-envelope"></i> Enviar</button> 
+</div>
+  </form> 
+
+  <hr>
+ <p class='textoasistencia col-12 col-lg-12 mb-4 mt-4 text-center text-white' >¿Dudas sobre nuestro evento? Puedes pedir información a través de nuesto chat de WhatsApp.<p> 
+         <form class=" logos1 row justify-content-center align-items-center mb-5" action="https://wa.me//526182037550?text=Confirmo%20mi%20asistencia."> 
+            <button type="submit" class="btnWhats text-center align-items-center col-6" style="border-color: #25D366; border-width:4px; border-radius: 7px"><b><i class="fa fa-whatsapp "></b></i> WhatsApp</button> 
+    </form>  <br>
+     <h4 class='dondeyCuando col-12 col-lg-12 text-center ' >¡TE ESPERAMOS!</h4> <br><br>
+
+    
+</div>
+      
 
         
     <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 </a> 
 
-	
+   <div id="particles-js"></div>
 
-  
+    <script src="js/particles.min.js"></script>
+    <script>
+        particlesJS(
+            {
+  "particles": {
+    "number": {
+      "value": 25,
+      "density": {
+        "enable": false,
+        "value_area": 788.3699662577651
+      }
+    },
+    "color": {
+      "value": "#13575A"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.7,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": .5,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 24,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 500,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 3,
+      "direction": "bottom",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 0.5
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 4,
+        "duration": 0.3,
+        "opacity": 1,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+               )
+    </script>
 
 
 
