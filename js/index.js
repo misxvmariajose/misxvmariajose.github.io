@@ -39,7 +39,7 @@ window.sr = ScrollReveal();
 	}); 
 		sr.reveal('.mes', {
 		duration: 1500, //tiempo
-		delay:700,
+		delay:100,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -48,7 +48,7 @@ window.sr = ScrollReveal();
 	}); 
 		sr.reveal('.año', {
 		duration: 1500, //tiempo
-		delay:700,
+		delay:100,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -57,7 +57,7 @@ window.sr = ScrollReveal();
 	}); 
 			sr.reveal('#cuenta', {
 		duration: 1500, //tiempo
-		delay:800,
+		//delay:800,
 		origin: 'bottom', //origen
 		distance: '100px', //distancia
 		
@@ -74,7 +74,7 @@ window.sr = ScrollReveal();
 	});
 	sr.reveal('.mapas', {
 		duration: 2000, //tiempo
-		delay:100,
+		//delay:100,
 		origin: 'top', //origen
 		distance: '350px', //distancia
 		
@@ -91,7 +91,7 @@ window.sr = ScrollReveal();
 	});
 	sr.reveal('.imagen1', {
 		duration: 1000, //tiempo
-		delay:800,
+		//delay:800,
 		origin: 'top', //origen
 		distance: '300px', //distancia
 		
@@ -108,7 +108,7 @@ window.sr = ScrollReveal();
 	});
 		sr.reveal('.imagen3', {
 		duration: 1000, //tiempo
-		delay:500,
+		//delay:500,
 		origin: 'bottom', //origen
 		distance: '200px', //distancia
 		
@@ -117,7 +117,7 @@ window.sr = ScrollReveal();
 
 			sr.reveal('.apellidos', {
 		duration: 1500, //tiempo
-		delay:700,
+		//delay:700,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
@@ -127,7 +127,7 @@ window.sr = ScrollReveal();
 
 			sr.reveal('.form-register', {
 		duration: 1000, //tiempo
-		delay:800,
+		//delay:800,
 		origin: 'top', //origen
 		distance: '300px', //distancia
 		
@@ -135,7 +135,7 @@ window.sr = ScrollReveal();
 	});
 			sr.reveal('.btnWhats', {
 		duration: 1500, //tiempo
-		delay:700,
+		//delay:700,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
