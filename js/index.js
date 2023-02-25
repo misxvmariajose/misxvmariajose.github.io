@@ -74,7 +74,7 @@ window.sr = ScrollReveal();
 	});
 	sr.reveal('.mapas', {
 		duration: 2000, //tiempo
-		delay:300,
+		delay:100,
 		origin: 'top', //origen
 		distance: '350px', //distancia
 		
