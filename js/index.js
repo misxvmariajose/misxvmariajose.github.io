@@ -108,9 +108,9 @@ window.sr = ScrollReveal();
 	});
 		sr.reveal('.imagen3', {
 		duration: 1000, //tiempo
-		delay:800,
+		delay:500,
 		origin: 'bottom', //origen
-		distance: '300px', //distancia
+		distance: '200px', //distancia
 		
 
 	});
