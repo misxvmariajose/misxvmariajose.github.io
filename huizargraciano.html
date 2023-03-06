@@ -78,18 +78,18 @@ $(document).ready(function(){
 </div>-->
 
 
-<div class="portada col-12" style="background-size: cover ; background-image: url(img/portada1.png)"  >
+<div class="portada col-12" style="background-size: cover ; background-image: url(img/portada1.png);  position: relative;"  >
     
                     <div class="row justify-content-center">
 
                         <h4 class='nuestraBoda col-12 col-lg-12 text-center ml-3 text-white' id="barraFria">MIS XV AÑOS </h4>
                         <div class="text-center "> 
-        <img class="text-center col-7 col-lg-3 ml-3 mt-0 mb-4" src="img/ornamenta.png" > 
+        <img class="text-center col-7 col-md-7 ml-3 mt-0 mb-4" src="img/ornamenta.png" > 
     </div>   
                          <h5 class='nombres col-lg-12 text-center' >María José</h5>  
 
-<div class="playpause mb-5" onclick="PlayAudio()">
-    <div class="button"></div>
+<div class="playpause mb-5" onclick="PlayAudio()" >
+    <div class="button" ></div>
 
 </div>  
  <audio id="musica1" volume="80" loop> 
@@ -102,10 +102,29 @@ $(document).ready(function(){
         </div>
 
 <section class="cuando col-12 mb-0" style="background-color: black; color:white; position: relative; z-index: -2" > 
-<div id="particles-js2"></div>
-<br><br><h5 class='textoNosCasamos col-12 col-lg-12 mt-0 mb-5 text-center'>Hay momentos en la vida que imaginamos, soñamos y esperamos, uno de esos momentos a llegado...</h5>    
-<h3 class='estasinvitado col-12 col-lg-12 mt-0 mb-2 text-center'>¡Estás Invitado!</h3> 
-        <h5 class='dondeyCuando col-12 col-lg-12 mt-4 mb-0 text-center' >¿Cuando?</h5> 
+<div id="particles-js2"></div><br><br>
+<h5 class='textoNosCasamos col-12 col-lg-12 mt-0 mb-0 text-center'>Hay momentos en la vida que imaginamos, soñamos y esperamos, uno de esos momentos a llegado...</h5>  
+<div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-3 mb-5" src="img/ornamenta.png" > 
+    </div>
+  <div class="container col-12 mt-0 padres mb-5">  
+        <div class="justify-content-center"> 
+        <h5 class='porqueformas col-lg-12 mt-5 text-center' >PORQUE FORMAS PARTE ESCENCIAL EN MI VIDA...</h5>    
+        <h6 class='tespero col-12 col-lg-12 mt-5 mb-5 text-center' >Te espero para celebrar este día tan especial para mí en compañía de mis padres...</h6> 
+        <h6 class='nompadres col-12 col-lg-12 mt-5 text-center' >Oscar Barron</h6>
+        <h6 class='and col-12 col-lg-12 text-center'  ><b>&</b></h6> 
+        <h6 class='nompadres col-12 col-lg-12 mt-0 text-center' >Beatriz Gloria</h6>
+        <p class='tespero col-12 col-lg-12 mt-5 mb-4 text-center' >¡Tenemos del honor de invitarte a la celebración de mis XV años!</p> 
+          <h6 class='col-12 col-lg-12 mt-3 mb-5 text-center' >_______________________</h6>
+
+
+    </div></div>
+
+
+  
+<!--<h3 class='estasinvitado col-12 col-lg-12 mt-0 mb-2 text-center'>¡Estás Invitado!</h3> -->
+<br>
+        <h5 class='dondeyCuando col-12 col-lg-12 mt-2 mb-0 text-center' >¿Cuando?</h5> 
         <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-4 ornamenta" src="img/ornamenta.png" > 
     </div>
@@ -120,6 +139,7 @@ $(document).ready(function(){
                         <h5 class='año col-5 col-lg-5 ml-4 text-center' >2023</h5> 
                 </div>
         <p class='textodondeycuando col-12 col-lg-12 mt-3 mb- text-center' >Queremos que seas parte de este momento tan importante.</p> 
+        <p class='col-12 col-lg-12 mt-3 mb- text-center' style="font-size:20px; font-family: 'Abril Fatface', cursive;">SOLO FALTAN...</p> 
         <div class="col-12 text-center mb-0" id="cuenta"></div> 
         <br><br>
         
@@ -133,7 +153,7 @@ $(document).ready(function(){
         <img class="text-center col-7 col-lg-3 mt-0 mb-4" src="img/ornamenta.png" > 
     </div>
 
-         <div class="container col-12 mt-2 ceremoniaReligiosa mb-4" style="background-size: cover ; background-image: url(img/fondo1.png)">  
+         <div class="container col-12 col-md-8 mt-2 ceremoniaReligiosa mb-4" style="background-size: cover ; background-image: url(img/fondo1.png)">  
         <div class="justify-content-center"> 
         <h5 class='dondeycuandotitulo col-lg-12 mt-3 text-center' >CEREMONIA</h5>    
         <p style="font-size: 100px;"><i class="fas fa-church"></i></p>  
@@ -147,7 +167,7 @@ $(document).ready(function(){
 
     </div></div>
 
-    <div class="container col-12 mt-2 ceremoniaReligiosa mb-5" style="background-size: cover ; background-image: url(img/fondo3.png)">  
+    <div class="container col-12 col-md-8 mt-2 ceremoniaReligiosa mb-5" style="background-size: cover ; background-image: url(img/fondo3.png)">  
         <div class="justify-content-center"> 
         <h5 class='dondeycuandotitulo col-12 col-lg-12 mt-3 text-center' >RECEPCIÓN</h5>      
         <p style="font-size: 100px;"><i class=" fas fa-glass-cheers"></i></p>   
@@ -164,20 +184,20 @@ $(document).ready(function(){
     </div></div></div>
 
 
-<div class="invitado col-12" style="background-size: 100%; background-image: url(img/fondo2.png)"><br>
+<div class="invitado col-12" style="background-size: 100%; background-image: url(img/fondo2.png); z-index: -2" ><br>
         <h5 class='dondeyCuando col-12 col-lg-12 text-center' >Código de Vestimenta</h5> 
         <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="img/ornamenta.png" > 
     </div>
-    <h5 class='nosCasamos col-12 col-lg-12 mb-4 mt-4 text-center' >Formal</h5>
-        <div class="container col-12 mt-2 vestimenta mb-5">  
+    <h5 class='nosCasamos col-12 col-md-12 mb-4 mt-4 text-center' >Casual - Formal</h5>
+        <div class="container col-12 col-md-8 mt-2 vestimenta mb-5">  
         <div class="row justify-content-center"> 
            
         <img class="col-8 col-lg-3 mt-4 justify-content-center" src="img/vestido.png" > 
         <h5 class='col-12 col-lg-12 mt-3 text-center' ><b>MUJERES</b></h5> 
         <h5 class='textodondeycuando col-12 col-lg-12  mb-4 text-center' >Vestido Largo, corto, conjunto formal.</h5>    
         </div></div>
-        <div class="container col-12 mt-2 vestimenta mb-5">  
+        <div class="container col-12 col-md-8 mt-2 vestimenta mb-5">  
         <div class="row justify-content-center">     
         <img class="imagen col-8 col-lg-3 mt-4" src="img/traje.png" > 
         <h5 class='col-12 col-lg-12 mt-3 text-center' ><b>HOMBRES</b></h5>  
@@ -185,20 +205,33 @@ $(document).ready(function(){
 
     </div></div>
     <br>
-</div></div>
+</div></div><br>
+<h5 class='dondeyCuando col-12 col-lg-12 mb-0 mt-5 text-center' >Mesa de Regalos</h5> 
+        <div class="text-center "> 
+        <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="img/ornamenta.png" > 
+    </div>
+    <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center" >El mejor regalo que nos puedes brindar es tu presencia, pero si gustas hacernos un presente, puedes realizarlo a través de nuestra mesa de regalos.</h2>
+    <h2 class="respetuosamente col-12 col-lg-12 mt-3 text-center" >!Gracias¡</h2>
+
+       <div class="container col-12 justify-content-center mb-5 mt-5">   
+         <div class="row justify-content-center align-items-center" > 
+        <a class="tiendas col-10 col-md-6 mb-4 ml-3" href="https://mesaderegalos.liverpool.com.mx/"><img class="" src="img/liverpool.jpg"> </a>
+        <a class="tiendas col-10 col-md-6 mb-5 ml-3" href="https://wap-mesa-regalos.sears.com.mx/"><img class="" src="img/sears.png"> </a>
+    </div>  
+      </div>
 <h5 class='dondeyCuando col-12 col-lg-12 mb-0 mt-5 text-center' >La Quinceañera</h5> 
         <div class="text-center "> 
         <img class="text-center col-7 col-lg-3 mt-0 mb-0" src="img/ornamenta.png" > 
     </div>
  <!-- CARRUSEL-->
- <img class="col-12 mt-4 imagen1" src="img/1.jpeg" alt="" height="">
- <div class="container col-10 collage">  
-        <div class="imagen2 row justify-content-center"> 
+ <img class="col-12 col-md-5 mt-4 imagen1 justify-content-center" src="img/1.jpeg"  >
+ <div class="container col-10 col-md-4 collage">  
+        <div class="imagen2 row justify-content-center text-md-right justify-md-content-right"> 
             <img class=" mt-2 mb-2 ml-3 " src="img/2.jpeg" alt="">
         </div>
 </div>
- <img class="imagen3 col-12 mt-2 mb-5" src="img/3.jpeg" alt="" height="">
-   <div class="invitado col-12" style="background-size: cover ; background-color:black;"><br>   
+ <img class="imagen3 col-12 col-md-5 mt-2 mb-5 text-md-right" src="img/3.jpeg">
+   <div class="invitado col-12" style="background-color: black; color:white; position: relative;"><br>   
 
       <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-4 mb-0' >Confirmar asistencia</h5> 
       <div class="text-center "> 
@@ -206,7 +239,7 @@ $(document).ready(function(){
     </div>
         
   
-    <div class="container col-11 mt-2 boletos mt-2 mb-4"  style="background-size: cover ; background-image: url(img/portada1.png)">  
+    <div class="container col-11 col-md-8 mt-2 boletos mt-2 mb-4"  style="background-size: cover ; background-image: url(img/portada1.png);">  
         <div class="justify-content-center mb-2"><br>
             <h6 class='familiaboleto col-12 col-lg-12 text-center' ><b>Familia</b></h6> 
             <h5 class='apellidos col-12 col-lg-12 mt-3 text-center' >Huizar Graciano</h5>
@@ -226,7 +259,7 @@ $(document).ready(function(){
 <div class="invitado col-12" >
 <h5 class='dondeyCuando col-12 col-lg-12 text-center text-black mt-5 mb-4' >RSVP</h5> 
 <h2 class="respetuosamente col-12 col-lg-12 mt-4 text-center">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te rogamos nos pudieras confirmar tu asistencia antes del <b>01 DE NOVIEMBRE DE 2023.</b></h2>
-        <form class="form-register mt-4" action="https://formsubmit.co/kala980108@hotmail.com" method="POST">
+        <form class="form-register mt-4 col-md-8" action="https://formsubmit.co/kala980108@hotmail.com" method="POST">
     <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>Nombre completo del invitado</b></h2>
     <input class="controls" type="text" name="nombres" id="nombres" placeholder="">
     <h2 class="formulario col-12 col-lg-12 mt-2 text-left" ><b>Teléfono</b></h2>

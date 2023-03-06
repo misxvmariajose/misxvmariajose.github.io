@@ -172,7 +172,33 @@ sr.reveal('.Tituloasistenciaespero', {
 		reset:1000
 
 	});
+sr.reveal('.porqueformas', {
+		duration: 1500, //tiempo
+		//delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
 
+
+	}); 
+sr.reveal('.nompadres', {
+		duration: 1500, //tiempo
+		//delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+sr.reveal('.tiendas', {
+		duration: 1500, //tiempo
+		//delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 
 
 

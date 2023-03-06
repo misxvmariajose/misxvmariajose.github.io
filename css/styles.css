@@ -103,7 +103,41 @@ font-family: 'Arizonia', cursive;
   margin-top: 10px;
   margin-bottom: 0px;
 }
-@media (max-width:376px){
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.nombres{
+ font-family: 'Arizonia', cursive;
+  margin-top:80px;
+  margin-bottom: 40px;
+  color:white;
+  font-size: 60px;
+
+}
+.portada{
+width: 100%;
+height: 550px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+
+}
+.nuestraBoda{
+font-family: 'Cinzel Decorative', cursive;
+  margin-top:65px;
+  color:#621132;
+  font-size: 32px;
+
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+}
+
+@media (max-width:320px){
 
 .nombres{
  font-family: 'Arizonia', cursive;
@@ -136,8 +170,6 @@ font-family: 'Cinzel Decorative', cursive;
   margin-bottom: 0px;
 }
 }
-
-
 .simply-section {
   background: #184547;
   width: 170px;
@@ -257,7 +289,56 @@ font-family: 'Abril Fatface', cursive;
   font-size: 45px;
 
 }
-@media (max-width:376px){
+.padres{
+   box-shadow: 0 0 20px #184547;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-color: white;
+
+  
+  background-color: #184547;
+  opacity: 1;
+  text-align: center;
+}
+.porqueformas{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+}
+.tespero{
+  font-family: 'Noto Serif Khojki', serif;
+  font-size: 18px;
+  line-height:2;
+}
+.nompadres{
+  font-family: 'Arizonia', cursive;
+  font-size: 45px;
+    color:white;
+}
+.and{
+  font-family: 'Arizonia', cursive;
+ font-size:80px;
+ margin-top: -18px;
+ margin-bottom: -20px;
+    color:black;
+}
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.dondeyCuando{
+font-family: 'Abril Fatface', cursive;
+  margin-top:10px;
+  color:white;
+  font-size: 45px;
+
+}
+.dia{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 100px;
+  margin-bottom: -10px
+}
+}
+@media (max-width:320px){
 
 .dondeyCuando{
 font-family: 'Abril Fatface', cursive;
@@ -271,6 +352,28 @@ font-family: 'Abril Fatface', cursive;
   font-size: 100px;
   margin-bottom: -10px;
 }
+.porqueformas{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
+.tespero{
+  font-family: 'Noto Serif Khojki', serif;
+  font-size: 13px;
+  line-height:2;
+}
+.nompadres{
+  font-family: 'Arizonia', cursive;
+  font-size: 32px;
+    color:white;
+}
+.and{
+  font-family: 'Arizonia', cursive;
+ font-size:50px;
+ margin-top: -18px;
+ margin-bottom: -20px;
+    color:black;
+}
+
 }
 
 .familiaboleto{
@@ -305,7 +408,32 @@ font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 font-family: 'Open Sans', sans-serif;
 }
-@media (max-width:376px){
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+
+.apellidos{
+font-family: 'EB Garamond', serif;
+  font-size: 35px;
+  border-bottom: 3px solid white;
+}
+.invitacionpara{
+font-family: 'Dancing Script', cursive;
+  font-size: 34px;
+
+}
+.numMesa{
+  font-size: 27px;
+font-family: 'Open Sans', sans-serif;
+}
+.numeroPerMes{
+  font-family: 'EB Garamond', serif;
+  font-size: 40px;
+}
+.respetuosamente{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+}
+@media (max-width:320px){
 
 .apellidos{
 font-family: 'EB Garamond', serif;
@@ -335,6 +463,7 @@ font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 font-family: 'Open Sans', sans-serif;
 }
+
 .ceremoniaReligiosa{
    box-shadow: 0 0 20px white;
   border-top: 2px solid white;
@@ -515,7 +644,15 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   background-color:#184547; 
  
 }
-@media (max-width:376px){
+@media only screen and (max-width: 380px) and (min-width: 320px)  {
+  .btn{
+  text-decoration:none;
+  color:white;
+  border-color: white;
+  font-size: 15px;
+}
+}
+@media (max-width:320px){
 
 .btn{
   text-decoration:none;
@@ -524,6 +661,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   font-size: 12px;
 }
 }
+
 .btnWhats{
   text-decoration:none;
   color:#25D366;
@@ -539,6 +677,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   border-color: #121D25;
  
 }
+
 .menu{
   color: #121D25;
   font-family: 'Questrial', sans-serif;
@@ -665,7 +804,7 @@ margin-top: 0px;
     border-bottom-color:#ffffff;
 }
 #scroll:hover {
-    background-color:gray;
+    background-color:#505050;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
