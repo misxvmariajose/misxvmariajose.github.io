@@ -25,6 +25,7 @@ window.sr = ScrollReveal();
 
 
 	}); 
+	
 		sr.reveal('#padres2', {
 		duration: 2500, //tiempo
 		delay:500,
