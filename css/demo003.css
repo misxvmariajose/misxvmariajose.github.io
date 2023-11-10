@@ -50,7 +50,7 @@ background-attachment: fixed;
     width: 100%;
     max-width: 750px;
     text-align: center;
-   margin-top: 300px;
+   margin-top: 220px;
 
 }
 .contenido .info .nuestraBoda{
@@ -98,7 +98,7 @@ background-attachment: fixed;
 .curveado{
     position: absolute;
     width: 100%;
-    bottom: -10px;
+    bottom: -20px;
 }
 .curveado img{
     width: 100%;
@@ -326,6 +326,7 @@ margin-top: -10px;
     width: 100%;
     bottom: 130px;
 }
+
 .curveado img{
     width: 100%;
 
@@ -700,7 +701,7 @@ text-shadow: 0px 0px 0px;
 .curveado{
     position: absolute;
     width: 100%;
-    bottom: 25px;
+    margin-bottom: 0px;
 }
 .curveado img{
     width: 100%;
@@ -819,7 +820,11 @@ font-family: 'Cantata One', serif;
 }
 }
 @media (max-width:320px){
-
+.curveado{
+    position: absolute;
+    width: 100%;
+    margin-bottom: -30px;
+}
 .dondeyCuando{
 font-family: 'Cantata One', serif;
   margin-top:10px;
