@@ -35,6 +35,8 @@ background-size: 100%;
 background-image: url(../img/portada2.png); 
 position: relative; 
 background-attachment: fixed;
+
+
 }
 
 .contenido{
@@ -99,6 +101,8 @@ background-attachment: fixed;
     position: absolute;
     width: 100%;
     bottom: -30px;
+
+    
 }
 .curveado img{
     width: 100%;
