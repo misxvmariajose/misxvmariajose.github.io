@@ -1,7 +1,42 @@
 window.sr = ScrollReveal();
 
 	
-	sr.reveal('.nombres', {
+	sr.reveal('.nombres1', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		distance: '100px' //distancia
+
+
+	}); 
+sr.reveal('.cliente', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+sr.reveal('#boton2', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'left', //origen
+		
+		distance: '50px' //distancia
+
+
+	}); 
+sr.reveal('.social-container', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+sr.reveal('.diaBautizo', {
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
@@ -11,9 +46,45 @@ window.sr = ScrollReveal();
 
 	}); 
 
-
 	sr.reveal('.nuestraBoda', {
 		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'left', //origen
+		distance: '100px', //distancia
+		
+
+	});
+	
+	sr.reveal('.cuentaRegresiva', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+
+	sr.reveal('.mesaregalos', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+	sr.reveal('.boletos', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'bottom', //origen
+		
+		distance: '100px' //distancia
+
+
+	}); 
+		sr.reveal('.dondeycuandotitulo', {
+		duration: 2500, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
 		distance: '100px', //distancia
@@ -24,6 +95,14 @@ window.sr = ScrollReveal();
 		duration: 2000, //tiempo
 		//delay:1500,
 		origin: 'top', //origen
+		distance: '200px', //distancia
+		
+
+	});
+	sr.reveal('.dondeyCuandoMesa', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'left', //origen
 		distance: '200px', //distancia
 		
 
@@ -55,14 +134,7 @@ window.sr = ScrollReveal();
 
 
 	}); 
-			sr.reveal('#cuenta', {
-		duration: 1500, //tiempo
-		//delay:800,
-		origin: 'bottom', //origen
-		distance: '100px', //distancia
-		
-
-	});
+	
 	sr.reveal('.ceremoniaReligiosa', {
 		duration: 1500, //tiempo
 		///delay:1000,
@@ -72,23 +144,40 @@ window.sr = ScrollReveal();
 		
 
 	});
+		sr.reveal('.hotel4', {
+		duration: 1500, //tiempo
+		//delay:1500,
+		origin: 'left', //origen
+		distance: '150px', //distancia
+		
+
+	});
+			sr.reveal('.hotel3', {
+		duration: 1500, //tiempo
+		//delay:1500,
+		origin: 'right', //origen
+		distance: '150px', //distancia
+		
+
+	});
 	sr.reveal('.mapas', {
 		duration: 2000, //tiempo
 		//delay:100,
 		origin: 'top', //origen
-		distance: '350px', //distancia
+		distance: '200px', //distancia
 		
 
 	});
 	sr.reveal('.vestimenta', {
 		duration: 1500, //tiempo
 		///delay:1000,
-		origin: 'top', //origen
-		scale: 0.30,
-		distance: '-0' //distancia
+		origin: 'left', //origen
+		
+		distance: '150px' //distancia
 		
 
 	});
+	
 	sr.reveal('.imagen1', {
 		duration: 1000, //tiempo
 		//delay:800,
@@ -152,12 +241,26 @@ sr.reveal('.nosCasamos', {
 	});
 
 sr.reveal('.dondeyCuando', {
+	rotate: {
+        x: 50,
+        z: 100
+    },
 		duration: 1500, //tiempo
-		origin: 'top', //origen
-		distance: '-100px', //distancia
+		origin: 'left', //origen
+		distance: '100px', //distancia
 		
 
 	});
+
+sr.reveal('.carousel', {
+		duration: 2000, //tiempo
+		//delay:1500,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 sr.reveal('.Tituloasistencia', {
 		duration: 1500, //tiempo
 		origin: 'top', //origen
@@ -172,15 +275,7 @@ sr.reveal('.Tituloasistenciaespero', {
 		reset:1000
 
 	});
-sr.reveal('.porqueformas', {
-		duration: 1500, //tiempo
-		//delay:700,
-		origin: 'top', //origen
-		scale: 0.10,
-		distance: '-0' //distancia
 
-
-	}); 
 sr.reveal('.nompadres', {
 		duration: 1500, //tiempo
 		//delay:700,
@@ -222,6 +317,16 @@ sr.reveal('.textoSeccion3', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
 		distance: '-100px', //distancia
+		
+
+	});
+
+	sr.reveal('.linea', {
+		duration: 700, //tiempo
+		///delay:1000,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
 		
 
 	});
@@ -321,3 +426,210 @@ function closeAllSelect(elmnt) {
   }
 }
 
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
+
+$(document).ready(function(){
+	$('.menu li:has(ul)').click(function(e){
+		e.preventDefault();
+
+		if ($(this).hasClass('activado')){
+			$(this).removeClass('activado');
+			$(this).children('ul').slideUp();
+		} else {
+			$('.menu li ul').slideUp();
+			$('.menu li').removeClass('activado');
+			$(this).addClass('activado');
+			$(this).children('ul').slideDown();
+		}
+	});
+
+
+$(document).ready(function () {
+ 
+    (function ($) {
+ 
+        $('#filtrar').keyup(function () {
+ 
+             var rex = new RegExp($(this).val(), 'i');
+ 
+             $('.contenedor-menu  li').hide();
+ 
+             $('.contenedor-menu  li').filter(function () {
+               return rex.test($(this).text());
+             }).show();
+ 
+        })
+ 
+    }(jQuery));
+ 
+});
+ 
+	
+});
+function personas1() {
+    window.open("pases/inicio1.html", "_self");        
+}
+function personas2() {
+    window.open("pases/inicio2.html", "_self");        
+}
+function personas3() {
+    window.open("pases/inicio3.html", "_self");        
+}
+function personas4() {
+    window.open("pases/inicio4.html", "_self");        
+}
+function personas5() {
+    window.open("pases/inicio5.html", "_self");        
+}
+function personas6() {
+    window.open("pases/inicio6.html", "_self");        
+}
+function personas7() {
+    window.open("pases/inicio7.html", "_self");        
+}
+function personas8() {
+    window.open("pases/inicio8.html", "_self");        
+}
+function personas9() {
+    window.open("pases/inicio9.html", "_self");        
+}
+
+ function copiar1(){
+  var origen = document.getElementById('target1');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar2(){
+  var origen = document.getElementById('target2');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar3(){
+  var origen = document.getElementById('target3');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar4(){
+  var origen = document.getElementById('target4');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar5(){
+  var origen = document.getElementById('target5');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar6(){
+  var origen = document.getElementById('target6');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar7(){
+  var origen = document.getElementById('target7');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar8(){
+  var origen = document.getElementById('target8');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar9(){
+  var origen = document.getElementById('target9');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
