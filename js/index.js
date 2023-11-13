@@ -479,8 +479,8 @@ $(document).ready(function () {
  
 	
 });
-function personas1() {
-    window.open("pases/inicio1.html", "_self");        
+function BarronGloria() {
+    window.open("pases/Mesa1/Barron Gloria.html", "_self");        
 }
 function personas2() {
     window.open("pases/inicio2.html", "_self");        
@@ -507,7 +507,7 @@ function personas9() {
     window.open("pases/inicio9.html", "_self");        
 }
 
- function copiar1(){
+ function copiarBarronGloria(){
   var origen = document.getElementById('target1');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");

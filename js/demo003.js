@@ -365,10 +365,10 @@ sr.reveal('.textoasistencia', {
 
 	}); 
 			sr.reveal('.form-register', {
-		duration: 1000, //tiempo
+		duration: 1500, //tiempo
 		//delay:800,
 		origin: 'top', //origen
-		distance: '300px', //distancia
+		distance: '350px', //distancia
 		
 
 	});
