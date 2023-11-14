@@ -494,25 +494,32 @@ function AndreaOrtiz() {
 function HugoFernandez() {
     window.open("pases/Mesa1/HugoFernandez.html", "_self");        
 }
+//////////////////////////////////////////////////////////////
 function EduardoyGina() {
     window.open("pases/Mesa2/EduardoyGina.html", "_self");        
 }
-function personas6() {
-    window.open("pases/inicio6.html", "_self");        
+function JorgeCisneros() {
+    window.open("pases/Mesa2/JorgeCisneros.html", "_self");        
 }
-function personas7() {
-    window.open("pases/inicio7.html", "_self");        
+function ArmandoGonzalez() {
+    window.open("pases/Mesa2/ArmandoGonzalez.html", "_self");        
 }
-function personas8() {
-    window.open("pases/inicio8.html", "_self");        
+function EverAvalos() {
+    window.open("pases/Mesa2/EverAvalos.html", "_self");        
 }
-function personas9() {
-    window.open("pases/inicio9.html", "_self");        
+function AldairyYenebhit() {
+    window.open("pases/Mesa2/AldairyYenebhit.html", "_self");        
+}
+function KristianDelgado() {
+    window.open("pases/Mesa2/KristianDelgado.html", "_self");        
+}
+function ArturoSarmiento() {
+    window.open("pases/Mesa2/ArturoSarmiento.html", "_self");        
 }
 
  function copiarBarronGloria(){
   var origen = document.getElementById('target1');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -526,7 +533,7 @@ function personas9() {
 }
  function copiarHuizarGraciano(){
   var origen = document.getElementById('target2');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -540,7 +547,7 @@ function personas9() {
 }
  function copiarFabiolayJose(){
   var origen = document.getElementById('target3');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -554,7 +561,7 @@ function personas9() {
 }
  function copiarAndreaOrtiz(){
   var origen = document.getElementById('target4');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -568,7 +575,7 @@ function personas9() {
 }
 function copiarHugoFernandez(){
   var origen = document.getElementById('target5');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -582,7 +589,7 @@ function copiarHugoFernandez(){
 }
  function copiarEduardoyGina(){
   var origen = document.getElementById('target6');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -594,9 +601,9 @@ function copiarHugoFernandez(){
   destino.focus();
   document.execCommand('paste');
 }
- function copiar6(){
+ function copiarJorgeCisneros(){
   var origen = document.getElementById('target7');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -608,9 +615,9 @@ function copiarHugoFernandez(){
   destino.focus();
   document.execCommand('paste');
 }
- function copiar7(){
+ function copiarArmandoGonzalez(){
   var origen = document.getElementById('target8');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -622,9 +629,9 @@ function copiarHugoFernandez(){
   destino.focus();
   document.execCommand('paste');
 }
- function copiar8(){
+ function copiarEverAvalos(){
   var origen = document.getElementById('target9');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
@@ -636,9 +643,37 @@ function copiarHugoFernandez(){
   destino.focus();
   document.execCommand('paste');
 }
- function copiar9(){
+ function copiarAldairyYenebhit(){
   var origen = document.getElementById('target10');
-  var destino = document.getElementById('target10');
+  var destino = document.getElementById('target11111');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarKristianDelgado(){
+  var origen = document.getElementById('target11');
+  var destino = document.getElementById('target11111');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarArturoSarmiento(){
+  var origen = document.getElementById('target12');
+  var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
   var body = document.getElementsByTagName('body')[0];
