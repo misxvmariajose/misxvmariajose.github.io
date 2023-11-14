@@ -486,7 +486,7 @@ function personas2() {
     window.open("pases/Mesa1/HuizarGraciano.html", "_self");        
 }
 function personas3() {
-    window.open("pases/inicio3.html", "_self");        
+    window.open("pases/Mesa1/FabiolayJose.html", "_self");        
 }
 function personas4() {
     window.open("pases/inicio4.html", "_self");        
@@ -535,7 +535,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar3(){
+ function copiarFabiolayJose(){
   var origen = document.getElementById('target3');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
