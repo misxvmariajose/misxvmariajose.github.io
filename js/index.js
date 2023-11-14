@@ -482,10 +482,10 @@ $(document).ready(function () {
 function BarronGloria() {
     window.open("pases/Mesa1/BarronGloria.html", "_self");        
 }
-function personas2() {
+function HuizarGraciano() {
     window.open("pases/Mesa1/HuizarGraciano.html", "_self");        
 }
-function personas3() {
+function FabiolayJose() {
     window.open("pases/Mesa1/FabiolayJose.html", "_self");        
 }
 function personas4() {
