@@ -527,6 +527,23 @@ function AvilaBarron() {
     window.open("pases/Mesa3/AvilaBarron.html", "_self");        
 }
 /////////////////////////////////////////////////////////////
+function VazquezPizaña() {
+    window.open("pases/Mesa4/VazquezPizaña.html", "_self");        
+}
+function BarronTerrazas() {
+    window.open("pases/Mesa4/BarronTerrazas.html", "_self");        
+}
+function ArturoCasas() {
+    window.open("pases/Mesa4/ArturoCasas.html", "_self");        
+}
+function EduardoSolis() {
+    window.open("pases/Mesa4/EduardoSolis.html", "_self");        
+}
+////////////////////////////////////////////////////////////
+function OrtizVazquez() {
+    window.open("pases/Mesa5/OrtizVazquez.html", "_self");        
+}
+
 
  function copiarBarronGloria(){
   var origen = document.getElementById('target1');
@@ -740,6 +757,76 @@ function copiarMariaFelix(){
 }
 function copiarAvilaBarron(){
   var origen = document.getElementById('target16');
+  var destino = document.getElementById('target11111');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarVazquezPizaña(){
+  var origen = document.getElementById('target17');
+  var destino = document.getElementById('target11111');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarBarronTerrazas(){
+  var origen = document.getElementById('target18');
+  var destino = document.getElementById('target11111');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarArturoCasas(){
+  var origen = document.getElementById('target19');
+  var destino = document.getElementById('target11111');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarEduardoSolis(){
+  var origen = document.getElementById('target20');
+  var destino = document.getElementById('target11111');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarOrtizVazquez(){
+  var origen = document.getElementById('target21');
   var destino = document.getElementById('target11111');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
