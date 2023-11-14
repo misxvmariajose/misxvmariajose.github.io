@@ -480,7 +480,7 @@ $(document).ready(function () {
 	
 });
 function BarronGloria() {
-    window.open("pases/Mesa1/Barron Gloria.html", "_self");        
+    window.open("pases/Mesa1/BarronGloria.html", "_self");        
 }
 function personas2() {
     window.open("pases/inicio2.html", "_self");        
