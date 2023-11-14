@@ -488,11 +488,14 @@ function HuizarGraciano() {
 function FabiolayJose() {
     window.open("pases/Mesa1/FabiolayJose.html", "_self");        
 }
-function personas4() {
-    window.open("pases/inicio4.html", "_self");        
+function AndreaOrtiz() {
+    window.open("pases/Mesa1/AndreaOrtiz.html", "_self");        
 }
-function personas5() {
-    window.open("pases/inicio5.html", "_self");        
+function HugoFernandez() {
+    window.open("pases/Mesa1/HugoFernandez.html", "_self");        
+}
+function EduardoyGina() {
+    window.open("pases/Mesa2/EduardoyGina.html", "_self");        
 }
 function personas6() {
     window.open("pases/inicio6.html", "_self");        
@@ -549,7 +552,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar4(){
+ function copiarAndreaOrtiz(){
   var origen = document.getElementById('target4');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -563,7 +566,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar5(){
+function copiarHugoFernandez(){
   var origen = document.getElementById('target5');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -577,7 +580,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar6(){
+ function copiarEduardoyGina(){
   var origen = document.getElementById('target6');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -591,7 +594,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar7(){
+ function copiar6(){
   var origen = document.getElementById('target7');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -605,7 +608,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar8(){
+ function copiar7(){
   var origen = document.getElementById('target8');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -619,8 +622,22 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar9(){
+ function copiar8(){
   var origen = document.getElementById('target9');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+ function copiar9(){
+  var origen = document.getElementById('target10');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
