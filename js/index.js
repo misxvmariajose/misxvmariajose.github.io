@@ -483,7 +483,7 @@ function BarronGloria() {
     window.open("pases/Mesa1/BarronGloria.html", "_self");        
 }
 function personas2() {
-    window.open("pases/inicio2.html", "_self");        
+    window.open("pases/Mesa1/HuizarGraciano.html", "_self");        
 }
 function personas3() {
     window.open("pases/inicio3.html", "_self");        
@@ -521,7 +521,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar2(){
+ function copiarHuizarGraciano(){
   var origen = document.getElementById('target2');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
